@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(138, 68, 204);
+}
+.nav{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+    display: flex;
+    padding:10px 80px;
+    text-align: center;
+    align-items:center;
+    justify-content: space-between;
+}
+.nav .left{
+    display: flex;
+}
+.nav .left i{
+    font-size: 2.5rem;
+}
+.hspan{
+    color: rgb(255, 10, 222);
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.btn{
+    padding: 10px;
+    background-color: navajowhite;
+    border:0px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: red;
+    cursor: pointer;
+}
+main{
+    padding: 30px 80px;
+}
+.banner{
+    padding: 20px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .txt{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner .txt h1{
+    padding-top:60px;
+    color:rgb(161, 35, 192);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.banner .txt h2{
+    padding-bottom: 30px;
+      font-size: 2.5rem;
+      font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Salsa', cursive;
+font-family: 'Tektur', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.banner .img{
+    width: 100%;
+    padding-left: 100px;
+}
+.banner .img img{
+    width:600px;
+    height: 500px;
+    border-radius:15px;
+}
+.banner .img .btn2{
+    position: relative;
+    padding:30px 10px;
+    border: 2px solid black;
+    background-color: rgb(159, 202, 89);
+    border-radius: 100%;
+    left:-130px;
+    top: -400px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+    }
+
+
+
+.btn1{
+    border:2px solid rgb(141, 8, 119);
+    padding: 8px;
+    border-radius: 6px;
+    margin:10px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+
+}
+.btn1:hover{
+     background-color: rgb(111, 196, 32);
+     color: rgb(255, 0, 0);
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
